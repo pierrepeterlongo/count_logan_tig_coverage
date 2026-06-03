@@ -62,7 +62,6 @@ Median coverage (bases):     24.000
 
 This tool is designed to work alongside [logan_blaster](https://github.com/pierrepeterlongo/logan_blaster), which uses it to report coverage statistics of downloaded and recruited contigs/unitigs for each processed SRA accession.
 
-## Authors
+## Author
 
 - [Pierre Peterlongo](https://people.rennes.inria.fr/Pierre.Peterlongo/)
-- [Téo Lemane](https://tlemane.github.io/)
