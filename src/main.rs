@@ -101,9 +101,9 @@ fn main() {
 
     pairs.par_sort_unstable_by(|a, b| a.0.partial_cmp(&b.0).unwrap_or(std::cmp::Ordering::Equal));
 
-    println!("Number of sequences: {}", pairs.len());
-    println!("Total length:        {} bp", total_len);
-    println!("Mean coverage:       {:.3}", weighted_sum / total_len as f64);
-    println!("Median coverage (sequences): {:.3}", sequence_median(&pairs));
-    println!("Median coverage (bases):     {:.3}", weighted_median(&pairs, total_len));
+    println!("Number of sequences:          {}", pairs.len());
+    println!("Total length:                 {} bp", total_len);
+    println!("Mean coverage:                {:.3}", weighted_sum / total_len as f64);
+    println!("Median coverage (sequences):  {:.3}", sequence_median(&pairs));
+    println!("Median coverage (bases):      {:.3}", weighted_median(&pairs, total_len));
 }
