@@ -1,5 +1,7 @@
 # count_logan_tig_coverage
 
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+
 Compute **length-weighted mean and median coverage** from a Logan FASTA/FASTQ file.
 
 Coverage values are read from the `ka:f:` tag present in Logan contig and unitig headers.

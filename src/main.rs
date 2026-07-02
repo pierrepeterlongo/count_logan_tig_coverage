@@ -3,7 +3,7 @@ use clap::Parser;
 use rayon::prelude::*;
 
 #[derive(Parser)]
-#[command(about = "Compute length-weighted mean and median coverage from a FASTA/FASTQ file")]
+#[command(version, about = "Compute length-weighted mean and median coverage from a FASTA/FASTQ file")]
 struct Args {
     #[arg(long = "in", help = "Input FASTA/FASTQ file")]
     input: String,
