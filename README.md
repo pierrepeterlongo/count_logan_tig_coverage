@@ -1,3 +1,5 @@
+[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/count_logan_tig_coverage/README.html)
+
 # count_logan_tig_coverage
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue)
